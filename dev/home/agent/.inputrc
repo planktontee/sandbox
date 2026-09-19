@@ -1,0 +1,13 @@
+# alt/ctrl + arrows word motion (kitty/xterm send CSI 1;3X / 1;5X)
+"\e[1;3C": forward-word
+"\e[1;3D": backward-word
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+"\e[3;3~": kill-word
+"\e[3;5~": kill-word
+"\e[H": beginning-of-line
+"\e[F": end-of-line
+"\e[3~": delete-char
+set colored-stats on
+set completion-ignore-case on
+set show-all-if-ambiguous on
